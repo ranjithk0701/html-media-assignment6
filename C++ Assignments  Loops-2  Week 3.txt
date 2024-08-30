@@ -1,0 +1,67 @@
+1->
+	infinite loop : of In while loop
+
+2->
+		. HELLO
+		. HELLO
+		. HELLO
+		.
+
+3->
+		. In for loop
+		. In for loop
+		. In for loop
+		.
+
+4->
+		. 9 1
+		. 8 2
+		. 7 3
+		. 6 4
+		. 5 5
+		. 4 6
+		.
+
+5->
+		int main()
+{
+    int n; cin>>n;
+    int y = 0;
+    while(n > 0){
+        int x = n%10;
+        n /= 10;
+        if(x%2 == 0){
+            y += x;
+        }
+        else continue;
+        
+    }
+    cout<<y;
+}
+
+6->
+		int main()
+{
+    int n; cin>>n;
+    int y = 0;
+    int z = n;
+    while(n > 0){
+        int x = n%10;
+        y += x;
+        y *= 10;
+        n /= 10;
+        
+    }
+    cout<<z + y/10;
+}
+
+7->
+	dont know 
+8->
+	dont now
+9->
+	dont know
+	
+
+
+		
